@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Lastpass plugin for autofilling passwords in HyperTerm.",
   "main": "index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepublish": "npm run build -- --release",
     "build": "babel-node ./tools/build.js"
