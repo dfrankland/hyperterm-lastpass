@@ -1,0 +1,56 @@
+{
+  "name": "hyperterm-lastpass",
+  "version": "0.0.0",
+  "description": "Lastpass plugin for autofilling passwords in HyperTerm.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run build -- --release",
+    "build": "babel-node ./tools/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfrankland/hyperterm-lastpass.git"
+  },
+  "keywords": [
+    "Lastpass",
+    "hyperterm",
+    "passwords",
+    "autofill"
+  ],
+  "author": "Dylan Frankland <dylan@frankland.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfrankland/hyperterm-lastpass/issues"
+  },
+  "homepage": "https://github.com/dfrankland/hyperterm-lastpass#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-modern-node": "^2.3.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.13.0",
+    "babel-runtime": "^6.11.6",
+    "bootstrap": "^4.0.0-alpha.3",
+    "fuzzaldrin": "^2.1.0",
+    "lastpass": "^1.0.2",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "babel": {
+    "presets": [
+      "modern-node/6.0",
+      "stage-0"
+    ]
+  }
+}
