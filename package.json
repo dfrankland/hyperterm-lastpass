@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-lastpass",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Lastpass plugin for autofilling passwords in HyperTerm.",
   "main": "index.js",
   "scripts": {
